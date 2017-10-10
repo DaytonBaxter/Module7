@@ -13,6 +13,8 @@ private:
 public:
     Counter(): count(0) //constructor
     {};
+    Counter(int c): count(c)  //constructor with arguments
+    {};
 
     unsigned int get_count ()   //returns count
     {
